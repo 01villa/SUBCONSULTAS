@@ -12,6 +12,7 @@ SELECT
      WHERE i.client_id = c.id) AS nro_facturas
 FROM 
     cliente c;
+```
 
 ![alt text](image.png)
 
