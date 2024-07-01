@@ -1,10 +1,9 @@
-Desarrollar los siguientes ejercicios usando subconsultas.
+## Desarrollar los siguientes ejercicios usando subconsultas
 
-DB INVOICE
+### DB INVOICE
 
-El numero total de facturas realizadas por cada cliente.
-          nombre_cliente | direccion | nro_facturas
-
+#### El número total de facturas realizadas por cada cliente.
+```sql
 SELECT 
     c.full_name AS nombre_cliente,
     c.address AS direccion,
